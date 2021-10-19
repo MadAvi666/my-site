@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Презентация героя">
+    <title>Shadow fiend</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="headerpage">
+      <div class="headerpage-logo"></div>
+      <div class="nav-items">
+        <a class="headerpage-content " href="">Игра</a>
+        <a class="headerpage-content headerpage-content-active" href="">Герои</a>
+        <a class="headerpage-content" href="">Новости</a>
+        <a class="headerpage-content" href="">Киберспорт</a>
+      </div>
+      <div class="login">
+        <div class="steamlogo"></div>
+        <div class="headerpage-content">Войти</div>
+      </div>
+    </header>
+
+    <main class="mainpage">
+      <div class="hero-name">Shadow Fiend</div>
+      <div class="hero-container">
+      <!--   <img class="hero-portret" src="img/nevermore.png" alt="Shadow Fiend"> -->
+        <video class="hero-portret" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png" muted autoplay="" preload="auto" loop="" playsinline=""><source type="video/webm" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.webm"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png"></video>
+        <div class="hero-discription-frame">
+          <div class="attribute">
+            <p class="hero-discription">Сложность</p>
+            <!--<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png">
+            <span class="hero-discription">Ловкость</span>-->
+            <div class="diff-container">
+              <div class="heropage-diff checkbox"></div>
+              <div class="heropage-diff checkbox"></div>
+              <div class="heropage-diff"></div>
+            </div>
+          </div>
+          <div class="spacer spacer-margin"></div>
+          <p class="hero-cite">НАНОСИТ УРОН, ВЫПУСКАЯ ИЗ СЕБЯ ДУШИ ПАВШИХ ВРАГОВ</p>
+          <div class="spacer"></div>
+          <ul class="hero-description-tags">
+            <li>ДАЛЬН. БОЙ</li>
+            <li>КЕРРИ</li>
+            <li>БЫСТР. УРОН</li>
+          </ul>
+          <div class="spacer"></div>
+          <p class="hero-discription">Shadow Fiend становится сильнее с каждой полученной душой убитого им существа. Каждое убийство, каждое точное попадание опустошающими чарами приближает смертоносный удар энергии выпущенных на волю душ.</p>
+          <div class="hero-spell-icons">
+            <figure class="spell">
+              <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/12/Demon_Eater_Shadowraze2_icon.png/revision/latest/scale-to-width-down/128?cb=20140925011710">
+              <figcaption class="hero-spell-descr">
+                <video muted autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/nevermore/nevermore_shadowraze1.jpg">
+                  <source type="video/mp4" src="files/coils.mp4">
+                </video>
+                <p class="hero-discription">shadowrize</p>
+                <p>Герой опустошает участок земли прямо перед собой, нанося урон всем врагам в зоне действия. Накладывает на жертву складывающийся эффект, увеличивающий урон от этой способности с каждым её попаданием.</p>
+              </figcaption>
+            </figure>
+            <figure class="spell">
+              <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/00/Demon_Eater_Necromastery_icon.png/revision/latest/scale-to-width-down/128?cb=20140925011745">
+              <figcaption class="hero-spell-descr">
+                <video muted autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/nevermore/nevermore_necromastery.jpg">
+                  <source type="video/mp4" src="files/souls.mp4">
+                </video>
+                <p class="hero-discription">necromastery</p>
+                <p>Герой крадёт душу каждого убитого врага, получая бонус к атаке. После смерти выпускает 40% от них.</p>
+              </figcaption>
+            </figure>
+            <figure class="spell">
+              <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/73/Demon_Eater_Presence_of_the_Dark_Lord_icon.png/revision/latest/scale-to-width-down/128?cb=20140925011753">
+              <figcaption class="hero-spell-descr">
+                <video muted autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/nevermore/nevermore_dark_lord.jpg">
+                  <source type="video/mp4" src="files/armor.mp4">
+                </video>
+                <p class="hero-discription">presence of the dark lord</p>
+                <p>Присутствие героя снижает броню ближайших врагов.</p>
+              </figcaption>
+            </figure>
+            <figure class="spell">
+              <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/ce/Demon_Eater_Requiem_of_Souls_icon.png/revision/latest/scale-to-width-down/128?cb=20140925011801">
+              <figcaption class="hero-spell-descr">
+                <video muted autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/abilities/nevermore/nevermore_requiem.jpg">
+                  <source type="video/mp4" src="files/requiem.mp4">
+                </video>
+                <p class="hero-discription">requiem of souls</p>
+                <p>Герой выпускает собранные души в волнах демонической энергии. Существа возле него могут получить урон от нескольких волн. За каждую задетую волну на жертву накладывается 0.8 сек. замедления и страха (но не более 2.4 сек.). Создаёт одну волну энергии за каждую душу, захваченную с помощью Necromastery. <br><br>Если герой погибнет, то эта способность сработает автоматически вне зависимости от её готовности.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="hero-stats-frame">
+        <div class="vspacer"></div>
+        <div class="stats-container">
+          <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png">
+          <span class="hero-discription">Ловкость</span>
+        </div>
+        <div class="vspacer"></div>
+      </div>
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+</html>
+
+<!--
+    Атрибуты
+Ловкость: https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png
+Сила: https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png
+Интеллект: https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png
+
+    Типы атаки
+Ближний: https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg
+Дальний: https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg
+ -->
